@@ -1,0 +1,100 @@
+.back {
+    background: linear-gradient(to right , rgb(14, 98, 77), rgb(83, 178, 149));
+   
+  }
+  .validate{
+    color:  rgb(14, 98, 77);
+    font-size: x-large;
+    margin-left: 2%;
+    text-align: center;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    height: 150px;
+    width: 550px;
+    background: linear-gradient(to right, rgb(222, 225, 224), rgb(179, 183, 182));
+    border: 2px solid rgb(214, 232, 224);
+    border-radius: 6px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0px 2px 25px #e1e1e1;
+    margin-top: 15%;
+  }
+  .out{
+    margin-top: 50px;
+    
+  }
+
+  .backhome {
+    text-align: center;
+    margin-left: 45%;
+    font-size: 1.5em;
+    color: #fff;
+    font-style: italic;
+  }
+  .backTo{
+    margin-top: 24px;
+  }
+  @media only screen and (max-width: 930px) {
+    
+    .validate{
+      margin-left: 17%;
+    }
+  }
+  @media only screen and (max-width: 807px) {
+    
+    .validate{
+      margin-left: 12%;
+      width: 500px;
+    }
+  }
+  @media only screen and (max-width: 667px) {
+    
+    .validate{
+      margin-left: 12%;
+      width: 470px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    
+    .validate{
+      margin-left: 12%;
+      width: 430px;
+      font-size: large;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    
+    .validate{
+      margin-left: 12%;
+      width: 390px;
+      font-size: large;
+    }
+  }
+  @media only screen and (max-width: 494px) {
+    
+    .validate{
+      margin-left: 12%;
+      width: 340px;
+      font-size: medium;
+      margin-top: 20%;
+    }
+  }
+  @media only screen and (max-width: 424px) {
+    
+    .validate{
+      margin-left: 12%;
+      width: 290px;
+      font-size: medium;
+      margin-top: 20%;
+    }
+  }
+  @media only screen and (max-width: 384px) {
+    
+    .validate{
+      margin-left: 12%;
+      width: 240px;
+      font-size: medium;
+      margin-top: 20%;
+    }
+  }
+  

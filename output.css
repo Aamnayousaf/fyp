@@ -1,0 +1,473 @@
+.back {
+  background-color: rgb(102, 184, 152);
+}
+.out {
+  color: #fff;
+  font-size: x-large;
+  margin-left: 2%;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  height: 200px;
+  width: 650px;
+  background: linear-gradient(to right, rgb(14, 98, 77), rgb(83, 178, 149));
+  border: 2px solid rgb(46, 92, 71);
+  border-radius: 6px;
+  margin-left: 25%;
+  margin-right: 25%;
+  box-shadow: 0px 2px 25px rgb(8, 46, 36);
+  margin-top: 5%;
+}
+.out h3 {
+  font-weight: bold;
+  font-size: xx-large;
+  margin-left: 20px;
+}
+.backhome {
+  text-align: center;
+  margin-left: 47%;
+  font-size: 2em;
+  color: #fff;
+  font-style: italic;
+  margin-top: 400px;
+}
+
+.back1 h5 {
+  margin-left: 82%;
+  color: hsl(120, 91%, 8%);
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+  cursor: pointer;
+}
+.back1 {
+  margin-top: 10%;
+}
+.Note{
+  margin-top: 45px;
+  float: right;
+  font-size: large;
+  color: white
+}
+.backTo{
+  margin-top: 24px;
+}
+@media only screen and (max-width: 990px) {
+  .out {
+    color: #fff;
+    font-size: large;
+    margin-left: 2%;
+    height: 200px;
+    width: 520px;
+    border-radius: 6px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0px 2px 25px rgb(8, 46, 36);
+    margin-top: 5%;
+  } 
+  .out h3 {
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 20px;
+  }
+  .backhome {
+    text-align: center;
+    margin-left: 47%;
+    font-size: 1.5em;
+    color: #fff;
+    font-style: italic;
+    margin-top: 400px;
+  }
+  
+  .back1 h5 {
+    margin-left: 82%;
+    color: hsl(120, 91%, 8%);
+    font-family: "Times New Roman", Times, serif;
+    font-size: medium;
+    cursor: pointer;
+  }
+  .Note{
+    margin-top: 45px;
+    font-size: medium;
+  }
+}
+
+@media only screen and (max-width: 1189px) {
+  .out {
+    color: #fff;
+    font-size: large;
+    margin-left: 2%;
+    height: 200px;
+    width: 500px;
+    border-radius: 6px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+  } 
+  .out h3 {
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 20px;
+  }
+  .backhome {
+    text-align: center;
+    margin-left: 47%;
+    font-size: 1.5em;
+    color: #fff;
+    font-style: italic;
+    margin-top: 400px;
+  }
+ 
+  
+}
+@media only screen and (max-width: 967px) {
+  .out {
+    color: #fff;
+    font-size: large;
+    margin-left: 2%;
+    height: 200px;
+    width: 470px;
+    border-radius: 6px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0px 2px 25px rgb(8, 46, 36);
+    margin-top: 5%;
+  } 
+  .out h3 {
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 20px;
+  }
+  .backhome {
+    text-align: center;
+    margin-left: 47%;
+    font-size: 1.5em;
+    color: #fff;
+    font-style: italic;
+    margin-top: 400px;
+  }
+ 
+  
+}
+
+@media only screen and (max-width: 914px) {
+  .out {
+    font-size: large;
+    margin-left: 2%;
+    height: 200px;
+    width: 420px;
+    border-radius: 6px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+  } 
+  .out h3 {
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 20px;
+  }
+  .backhome {
+    text-align: center;
+    margin-left: 47%;
+    font-size: 1.5em;
+    color: #fff;
+    font-style: italic;
+    margin-top: 400px;
+  }
+ 
+  
+}
+@media only screen and (max-width: 853px) {
+  .out {
+    color: #fff;
+    font-size: large;
+    margin-left: 2%;
+    height: 200px;
+    width: 410px;
+    border-radius: 6px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0px 2px 25px rgb(8, 46, 36);
+    margin-top: 5%;
+  } 
+  .out h3 {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 20px;
+  }
+  .backhome {
+    text-align: center;
+    margin-left: 47%;
+    font-size: 1.5em;
+    color: #fff;
+    font-style: italic;
+    margin-top: 400px;
+  }
+  .Note{
+    margin-top: 45px;
+    font-size: small;
+  }
+  
+}
+
+@media only screen and (max-width: 778px) {
+  .out {
+    color: #fff;
+    font-size: large;
+    margin-left: 2%;
+    height: 170px;
+    width: 380px;
+    border-radius: 6px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0px 2px 25px rgb(8, 46, 36);
+    margin-top: 5%;
+  } 
+  .out h3 {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 20px;
+  }
+  .backhome {
+    text-align: center;
+    margin-left: 47%;
+    font-size: 1.5em;
+    color: #fff;
+    font-style: italic;
+    margin-top: 400px;
+  }
+  .Note{
+    margin-top: 45px;
+    font-size: small;
+  }
+  
+}
+
+@media only screen and (max-width: 738px) {
+  .out {
+    color: #fff;
+    font-size: large;
+    margin-left: 2%;
+    height: 170px;
+    width: 350px;
+    border-radius: 6px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0px 2px 25px rgb(8, 46, 36);
+    margin-top: 5%;
+  } 
+  .out h3 {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 20px;
+  }
+  .backhome {
+    text-align: center;
+    margin-left: 47%;
+    font-size: 1.5em;
+    color: #fff;
+    font-style: italic;
+    margin-top: 400px;
+  }
+  .Note{
+    margin-top: 45px;
+    font-size: small;
+  }
+  
+}
+@media only screen and (max-width: 697px) {
+  .out {
+    color: #fff;
+    font-size: large;
+    margin-left: 2%;
+    height: 170px;
+    width: 320px;
+    border-radius: 6px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0px 2px 25px rgb(8, 46, 36);
+    margin-top: 5%;
+  } 
+  .out h3 {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 20px;
+  }
+  .backhome {
+    text-align: center;
+    margin-left: 47%;
+    font-size: 1.5em;
+    color: #fff;
+    font-style: italic;
+    margin-top: 400px;
+  }
+  .Note{
+    margin-top: 60px;
+    font-size: x-small;
+  }
+  
+}
+@media only screen and (max-width: 606px) {
+  .out {
+    color: #fff;
+    font-size: medium;
+    margin-left: 2%;
+    height: 190px;
+    width: 290px;
+    border-radius: 6px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0px 2px 25px rgb(8, 46, 36);
+    margin-top: 6%;
+  } 
+  .out h3 {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 20px;
+  }
+  .backhome {
+    text-align: center;
+    margin-left: 47%;
+    font-size: 1em;
+    color: #fff;
+    font-style: italic;
+    margin-top: 400px;
+  }
+  .Note{
+    margin-top: 60px;
+    font-size: x-small;
+  }
+  
+}
+@media only screen and (max-width: 566px) {
+  .out {
+    color: #fff;
+    font-size: medium;
+    margin-left: 2%;
+    height: 190px;
+    width: 250px;
+    border-radius: 6px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0px 2px 25px rgb(8, 46, 36);
+    margin-top: 6%;
+  } 
+  .out h3 {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 20px;
+  }
+  .backhome {
+    text-align: center;
+    margin-left: 47%;
+    font-size: 1em;
+    color: #fff;
+    font-style: italic;
+    margin-top: 400px;
+  }
+  .Note{
+    margin-top: 65px;
+    font-size: x-small;
+  }
+  
+}
+@media only screen and (max-width: 515px) {
+  .out {
+    color: #fff;
+    font-size: medium;
+    margin-left: 2%;
+    height: 190px;
+    width: 200px;
+    border-radius: 6px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0px 2px 25px rgb(8, 46, 36);
+    margin-top: 6%;
+  } 
+  .out h3 {
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 20px;
+  }
+  .backhome {
+    text-align: center;
+    margin-left: 42%;
+    font-size: 1em;
+    color: #fff;
+    font-style: italic;
+    margin-top: 400px;
+  }
+  .Note{
+    margin-top: 67px;
+    font-size: x-small;
+  }
+  
+}
+@media only screen and (max-width: 451px) {
+  .out {
+    color: #fff;
+    font-size: small;
+    margin-left: 2%;
+    height: 190px;
+    width: 160px;
+    border-radius: 6px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0px 2px 25px rgb(8, 46, 36);
+    margin-top: 6%;
+  } 
+  .out h3 {
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 20px;
+  }
+  .backhome {
+    text-align: center;
+    margin-left: 40%;
+    font-size: 1em;
+    color: #fff;
+    font-style: italic;
+    margin-top: 400px;
+  }
+  .Note{
+    margin-top: 67px;
+    font-size: x-small;
+  }
+  .back1 {
+    margin-top: 20%;
+  }
+  
+}
+@media only screen and (max-width: 399px) {
+  .out {
+    color: #fff;
+    font-size: small;
+    margin-left: 2%;
+    height: 190px;
+    width: 110px;
+    border-radius: 6px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0px 2px 25px rgb(8, 46, 36);
+    margin-top: 6%;
+  } 
+  .out h3 {
+    font-weight: bold;
+    font-size: small;
+    margin-left: 20px;
+  }
+  .backhome {
+    text-align: center;
+    margin-left: 40%;
+    font-size: 1em;
+    color: #fff;
+    font-style: italic;
+    margin-top: 400px;
+  }
+  .Note{
+    margin-top: 67px;
+    font-size: x-small;
+  }
+  .back1 {
+    margin-top: 20%;
+  }
+  
+}

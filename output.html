@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',    filename='css/output.css') }}"
+    />
+    <title>chat analyzer</title>
+  </head>
+  <body class="back">
+    <div class="back1">
+      <!-- <h5>Official chat waitages--- 0 to 10</h5>
+      <h5>Normal chat waitages--- 10 to 20</h5> -->
+    </div>
+    <span class="Note"><h5>Official chat waitages--- 0 to 10</h5>
+      <h5>Normal chat waitages--- 10 to 20</h5></span>
+    
+    <div class="out">
+      <h3>Result</h3>
+      {{ x }}
+    </div>
+    <div class="backTo">
+    <a class="backhome" href="/back"> Back </a>
+    </div>
+    <div class="dow">
+      <a href="{{x}}" download=""><button>download</button></a>
+    </div>
+  </body>
+</html>

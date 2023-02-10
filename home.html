@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',    filename='css/template.css') }}"
+    />
+    <title>Chat analyzer</title>
+  </head>
+  <body>
+    <div class="background">
+      <nav class="navbar">
+        <img src="{{ url_for('static',    filename='css/logo.png') }}" />
+        <ul>
+          <!-- <li> <a href="/" > Home  </a></li>
+            <li> <a href="/instruction" > Instruction </a></li>
+            <li> <a href="/limitation" > Limitations </a></li>
+            <li> <a href="/admin" > Admin </a></li>-->
+        </ul>
+      </nav>
+      <div class="marg">
+        <h2>Chat Export Instruction</h2>
+        <ul>
+          <li>Open the chat you want to analyze</li>
+          <li>Tap on three dots at right corner</li>
+          <li>Select more</li>
+          <li>Select 'Export chat'</li>
+          <li>Select Without media</li>
+          <li>Upload file on Home Page</li>
+        </ul>
+
+        <h2>Limitations</h2>
+        <ul>
+          <li>conversation must be between two persons</li>
+          <li>Conversation must be in english language</li>
+          <li>file must be in .txt form</li>
+        </ul>
+      </div>
+      <!--
+    <div class="ad">
+    <h3 >Ad</h3>
+    <h2 >Ad</h2>
+  </div>
+  -->
+      <div class="center">
+        <h1>Chat Analyzer</h1>
+        <br />
+        <!-- File upload form -->
+        <form action="/upload_file" method="post" enctype="multipart/form-data">
+          <input
+            type="file"
+            id="file"
+            class="inp"
+            name="file_name"
+            required
+            onchange="return fileValidation()"
+          />
+          <br />
+          <button class="btn" type="submit">Show analysis</button>
+        </form>
+        
+      </div>
+
+      <script language="JavaScript" type="text/javascript">
+        function fileValidation() {
+          var fileInput = document.getElementById("file");
+          var filePath = fileInput.value;
+          var allowedExtensions = /(\.txt)$/i;
+          if (!allowedExtensions.exec(filePath)) {
+            alert("Please upload file having extensions .txt only.");
+            fileInput.value = "";
+            return false;
+          }
+        }
+      </script>
+    </div>
+  </body>
+</html>
